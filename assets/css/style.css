@@ -8,8 +8,10 @@ body{font-family:system-ui,-apple-system,Segoe UI,Roboto,'Helvetica Neue',Arial;
 .site-header nav a{margin-left:1rem;color:var(--muted);text-decoration:none}
 .hero{padding:2rem 0}
 .hero h2{margin-top:0}
-.btn{background:var(--accent);color:white;padding:.5rem .9rem;border-radius:4px;text-decoration:none}
-.btn.outline{background:transparent;color:var(--accent);border:1px solid var(--accent)}
+.btn{display:inline-block;vertical-align:middle;background:var(--accent);color:white;padding:.5rem .9rem;border-radius:4px;text-decoration:none;line-height:1}
+.btn + .btn{margin-left:.5rem}
+.btn.outline{display:inline-block;vertical-align:middle;background:transparent;color:var(--accent);border:1px solid var(--accent);padding:.45rem .85rem;box-sizing:border-box}
+.cta{margin:0}
 .latest{margin-top:1.5rem}
 .comp-list{list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:.5rem}
 .comp-list li{background:#fff;border:1px solid #eee;padding:.5rem .7rem;border-radius:6px}
@@ -25,5 +27,15 @@ th,td{border:1px solid #eee;padding:.5rem;text-align:left}
 
 @media (min-width:700px){
   .site-header .container{padding:0 1rem}
-  .hero{display:flex;justify-content:space-between;align-items:center}
+  /* Use a two-column grid for the hero so the heading stays on the left
+     and the intro + call-to-action stack on the right. This keeps the
+     buttons consistently right-aligned. */
+  .hero{display:grid;grid-template-columns:320px 1fr;gap:1rem;align-items:start}
+  .hero > h2{grid-column:1}
+  .hero > p:not(.cta){grid-column:2}
+  .hero > .cta{grid-column:2;justify-self:end;align-self:start}
+  /* Stack the CTA buttons vertically and align them to the right edge */
+  .cta{display:flex;flex-direction:column;align-items:flex-end;gap:.4rem;margin:0}
+  /* Remove left margin applied for horizontal spacing when in stacked mode */
+  .cta .btn{margin-left:0}
 }
