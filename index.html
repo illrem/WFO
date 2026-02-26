@@ -1,0 +1,53 @@
+---
+layout: default
+title: WFO Olympics Results
+---
+
+<section>
+  <h2>Recent & Upcoming Events</h2>
+  <p>Results are loaded from <code>_data/events.json</code>. To add a new event, edit that file and push to GitHub.</p>
+
+  <table class="events-table" aria-describedby="events-desc">
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Event</th>
+        <th>Photo</th>
+        <th>Details</th>
+      </tr>
+    </thead>
+    <tbody>
+      {% for comp in site.data.events %}
+      <tr class="competition-row" data-event-date="{{ comp.date }}">
+        <td>{{ comp.date | date: "%Y-%m-%d" }}</td>
+        <td>{{ comp.name }}</td>
+        <td class="photo-col">
+          <img alt="Photo for {{ comp.name }}" class="event-photo" data-date="{{ comp.date }}" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='240'><rect width='100%' height='100%' fill='%23ddd'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='20' fill='%23777'>WFO Photo</text></svg>">
+        </td>
+        <td class="details-col">
+          <button class="toggle-details" aria-expanded="false">Show details</button>
+          <div class="details" hidden>
+            <ul>
+              {% for ev in comp.events %}
+                <li>
+                  <strong>{{ ev.name }}</strong>
+                  <ul>
+                    {% for r in ev.results %}
+                      <li>{{ r.place }}. {{ r.athlete }}{% if r.mark %} — {{ r.mark }}{% endif %}</li>
+                    {% endfor %}
+                  </ul>
+                </li>
+              {% endfor %}
+            </ul>
+          </div>
+        </td>
+      </tr>
+      {% endfor %}
+    </tbody>
+  </table>
+</section>
+
+<section>
+  <h3>How images are chosen</h3>
+  <p>Each event row is matched to a random image from <code>/images/</code> whose filename starts with the same year/month (filenames like <code>2025-12-30-whatever.jpg</code>). If no close match is found, a random image is used.</p>
+</section>

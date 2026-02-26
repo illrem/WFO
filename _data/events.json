@@ -1,0 +1,58 @@
+[
+  {
+    "id": "comp-2024-08",
+    "name": "WFO Olympics - Autumn 2024",
+    "date": "2024-08-04",
+    "events": [
+      {"name":"1000m Rowing","results":[{"place":1,"athlete":"Remi"},{"place":2,"athlete":"Ross"},{"place":3,"athlete":"Mo"},{"place":4,"athlete":"Teny"}]},
+      {"name":"Deadlift","results":[{"place":1,"athlete":"Remi"},{"place":2,"athlete":"Mo"},{"place":3,"athlete":"Teny"},{"place":4,"athlete":"Ross"}]},
+      {"name":"Push ups","results":[{"place":1,"athlete":"Ross"},{"place":2,"athlete":"Remi"},{"place":3,"athlete":"Mo"},{"place":4,"athlete":"Teny"}]},
+      {"name":"Sit ups (1 minute)","results":[{"place":1,"athlete":"Remi"},{"place":2,"athlete":"Ross"},{"place":3,"athlete":"Teny"},{"place":4,"athlete":"Mo"}]},
+      {"name":"Pull ups","results":[{"place":1,"athlete":"Remi"},{"place":2,"athlete":"Ross"},{"place":3,"athlete":"Teny"},{"place":4,"athlete":"Mo"}]},
+      {"name":"100m","results":[{"place":1,"athlete":"Remi"},{"place":2,"athlete":"Teny"},{"place":3,"athlete":"Mo"}]},
+      {"name":"400m","results":[{"place":1,"athlete":"Remi"},{"place":2,"athlete":"Mo"},{"place":3,"athlete":"Teny"}]},
+      {"name":"Mile","results":[{"place":1,"athlete":"Remi"},{"place":2,"athlete":"Ross"},{"place":3,"athlete":"Mo"}]}
+    ]
+  },
+  {
+    "id": "comp-2024-04",
+    "name": "WFO Olympics - Spring 2024",
+    "date": "2024-04-27",
+    "events": [
+      {"name":"Pushups","results":[{"place":1,"athlete":"Paulo","mark":"33"},{"place":2,"athlete":"Remi","mark":"25"},{"place":3,"athlete":"Teny","mark":"22"},{"place":4,"athlete":"Mo","mark":"21"}]},
+      {"name":"Situps","results":[{"place":1,"athlete":"Remi","mark":"28"},{"place":2,"athlete":"Teny","mark":"26"},{"place":3,"athlete":"Paulo","mark":"25"},{"place":4,"athlete":"Mo","mark":"18"}]},
+      {"name":"Pullups","results":[{"place":1,"athlete":"Remi","mark":"8"},{"place":2,"athlete":"Paulo","mark":"7"},{"place":3,"athlete":"Teny","mark":"2"},{"place":4,"athlete":"Mo","mark":"0"}]},
+      {"name":"Ski","results":[{"place":1,"athlete":"Remi","mark":"4:20.2"},{"place":2,"athlete":"Mo","mark":"4:22.9"},{"place":3,"athlete":"Paulo","mark":"5:11.8"},{"place":4,"athlete":"Teny","mark":"7:02"}]},
+      {"name":"Bench Press","results":[{"place":1,"athlete":"Remi","mark":"90kg"},{"place":2,"athlete":"Paulo","mark":"80kg"},{"place":2,"athlete":"Mo","mark":"80kg"},{"place":4,"athlete":"Teny","mark":"60kg"}]},
+      {"name":"4 lengths swim","results":[{"place":1,"athlete":"Remi","mark":"1.32"},{"place":2,"athlete":"Mo","mark":"3.57"},{"place":4,"athlete":"Teny","mark":"DNF"},{"place":4,"athlete":"Paulo","mark":"DNF"}]}
+    ]
+  },
+  {
+    "id": "comp-2024-02",
+    "name": "WFO Olympics - Winter 2024",
+    "date": "2024-02-04",
+    "events": [
+      {"name":"Rowing","results":[{"place":1,"athlete":"Remi"},{"place":2,"athlete":"Ross"},{"place":3,"athlete":"Mo"},{"place":4,"athlete":"Paulo"}]},
+      {"name":"Bench Press","results":[{"place":1,"athlete":"Remi"},{"place":2,"athlete":"Ross"},{"place":3,"athlete":"Paulo"},{"place":4,"athlete":"Mo"}]},
+      {"name":"Pushups","results":[{"place":1,"athlete":"Ross"},{"place":2,"athlete":"Paulo"},{"place":3,"athlete":"Remi"},{"place":4,"athlete":"Mo"}]},
+      {"name":"Situps","results":[{"place":1,"athlete":"Remi"},{"place":2,"athlete":"Ross"},{"place":3,"athlete":"Paulo"},{"place":4,"athlete":"Mo"}]},
+      {"name":"Pullups","results":[{"place":1,"athlete":"Paulo"},{"place":2,"athlete":"Remi"},{"place":2,"athlete":"Ross"},{"place":4,"athlete":"Mo"}]},
+      {"name":"100m","results":[{"place":1,"athlete":"Remi"},{"place":2,"athlete":"Ross"},{"place":3,"athlete":"Mo"},{"place":4,"athlete":"Paulo"}]},
+      {"name":"400m","results":[{"place":1,"athlete":"Remi"},{"place":2,"athlete":"Ross"},{"place":3,"athlete":"Mo"},{"place":4,"athlete":"Paulo"}]},
+      {"name":"1 mile","results":[{"place":1,"athlete":"Ross"},{"place":2,"athlete":"Remi"},{"place":3,"athlete":"Mo"},{"place":4,"athlete":"Paulo"}]}
+    ]
+  },
+  {
+    "id": "comp-2023-11",
+    "name": "WFO Olympics - Autumn 2023",
+    "date": "2023-11-04",
+    "events": [
+      {"name":"1000m Row","results":[{"place":1,"athlete":"Mo"},{"place":2,"athlete":"Teny"},{"place":4,"athlete":"Remi","mark":"DNF"},{"place":4,"athlete":"Armaan","mark":"DNF"}]},
+      {"name":"Bench Press","results":[{"place":1,"athlete":"Armaan"},{"place":2,"athlete":"Remi"},{"place":3,"athlete":"Teny"},{"place":4,"athlete":"Mo"}]},
+      {"name":"Pushups","results":[{"place":1,"athlete":"Armaan"},{"place":2,"athlete":"Remi"},{"place":3,"athlete":"Teny"},{"place":4,"athlete":"Mo"}]},
+      {"name":"Situps","results":[{"place":1,"athlete":"Remi"},{"place":2,"athlete":"Armaan"},{"place":3,"athlete":"Teny"},{"place":4,"athlete":"Mo"}]},
+      {"name":"Pullups","results":[{"place":1,"athlete":"Remi"},{"place":2,"athlete":"Armaan"},{"place":3,"athlete":"Teny"},{"place":4,"athlete":"Mo","mark":"DNF"}]},
+      {"name":"600m Treadmill","results":[{"place":1,"athlete":"Teny"},{"place":2,"athlete":"Mo"},{"place":4,"athlete":"Remi","mark":"DNF"},{"place":4,"athlete":"Armaan","mark":"DNF"}]}
+    ]
+  }
+]
