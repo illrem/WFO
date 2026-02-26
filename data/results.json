@@ -4,7 +4,7 @@
       "id": "comp-2024-08",
       "name": "WFO Olympics - Autumn 2024",
       "date": "2024-08-04",
-    "events": [
+      "events": [
       {"name":"1000m Rowing","results":[{"place":1,"athlete":"Remi"},{"place":2,"athlete":"Ross"},{"place":3,"athlete":"Mo"},{"place":4,"athlete":"Teny"}]},
       {"name":"Deadlift","results":[{"place":1,"athlete":"Remi"},{"place":2,"athlete":"Mo"},{"place":3,"athlete":"Teny"},{"place":4,"athlete":"Ross"}]},
       {"name":"Push ups","results":[{"place":1,"athlete":"Ross"},{"place":2,"athlete":"Remi"},{"place":3,"athlete":"Mo"},{"place":4,"athlete":"Teny"}]},

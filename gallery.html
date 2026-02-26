@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Gallery — The WFO Olympics</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <h1>The WFO Olympics</h1>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="results.html">Results</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="about.html">About</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <h2>Photo Gallery</h2>
+
+      <div class="gallery-grid">
+        <img src="assets/images/athlete1.svg" alt="Athlete 1" class="gallery-item">
+        <img src="assets/images/athlete2.svg" alt="Athlete 2" class="gallery-item">
+        <img src="assets/images/athlete3.svg" alt="Athlete 3" class="gallery-item">
+        <img src="assets/images/athlete4.svg" alt="Athlete 4" class="gallery-item">
+        <img src="assets/images/athlete5.svg" alt="Athlete 5" class="gallery-item">
+        <img src="assets/images/athlete6.svg" alt="Athlete 6" class="gallery-item">
+      </div>
+
+      <div id="lightbox" class="lightbox" aria-hidden="true">
+        <button id="lb-close" class="lb-close" aria-label="Close">×</button>
+        <img id="lb-image" src="" alt="">
+      </div>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; <span id="year3"></span> The WFO Olympics</p>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>

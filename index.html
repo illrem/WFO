@@ -1,53 +1,47 @@
----
-layout: default
-title: WFO Olympics Results
----
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>The WFO Olympics</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <meta name="description" content="The WFO Olympics — results and photos from our athletics competitions.">
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container">
+        <h1>The WFO Olympics</h1>
+        <nav>
+          <a href="index.html">Home</a>
+          <a href="results.html">Results</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="about.html">About</a>
+        </nav>
+      </div>
+    </header>
 
-<section>
-  <h2>Recent & Upcoming Events</h2>
-  <p>Results are loaded from <code>_data/events.json</code>. To add a new event, edit that file and push to GitHub.</p>
+    <main class="container">
+      <section class="hero">
+        <h2>Celebrating athletic achievement</h2>
+        <p>Welcome to The WFO Olympics site — find results from the last four competitions and photos of athletes in action.</p>
+        <p class="cta"><a class="btn" href="results.html">See Results</a> <a class="btn outline" href="gallery.html">View Gallery</a></p>
+      </section>
 
-  <table class="events-table" aria-describedby="events-desc">
-    <thead>
-      <tr>
-        <th>Date</th>
-        <th>Event</th>
-        <th>Photo</th>
-        <th>Details</th>
-      </tr>
-    </thead>
-    <tbody>
-      {% for comp in site.data.events %}
-      <tr class="competition-row" data-event-date="{{ comp.date }}">
-        <td>{{ comp.date | date: "%Y-%m-%d" }}</td>
-        <td>{{ comp.name }}</td>
-        <td class="photo-col">
-          <img alt="Photo for {{ comp.name }}" class="event-photo" data-date="{{ comp.date }}" src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='400' height='240'><rect width='100%' height='100%' fill='%23ddd'/><text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='20' fill='%23777'>WFO Photo</text></svg>">
-        </td>
-        <td class="details-col">
-          <button class="toggle-details" aria-expanded="false">Show details</button>
-          <div class="details" hidden>
-            <ul>
-              {% for ev in comp.events %}
-                <li>
-                  <strong>{{ ev.name }}</strong>
-                  <ul>
-                    {% for r in ev.results %}
-                      <li>{{ r.place }}. {{ r.athlete }}{% if r.mark %} — {{ r.mark }}{% endif %}</li>
-                    {% endfor %}
-                  </ul>
-                </li>
-              {% endfor %}
-            </ul>
-          </div>
-        </td>
-      </tr>
-      {% endfor %}
-    </tbody>
-  </table>
-</section>
+      <section class="latest">
+        <h3>Latest competitions</h3>
+        <p>Quick links to recent competitions and highlights.</p>
+        <ul class="comp-list" id="recent-comps">
+          <!-- populated from data/results.json by JS for convenience -->
+        </ul>
+      </section>
+    </main>
 
-<section>
-  <h3>How images are chosen</h3>
-  <p>Each event row is matched to a random image from <code>/images/</code> whose filename starts with the same year/month (filenames like <code>2025-12-30-whatever.jpg</code>). If no close match is found, a random image is used.</p>
-</section>
+    <footer class="site-footer">
+      <div class="container">
+        <p>&copy; <span id="year"></span> The WFO Olympics — Hosted on GitHub Pages</p>
+      </div>
+    </footer>
+
+    <script src="assets/js/main.js"></script>
+  </body>
+</html>
