@@ -12,7 +12,7 @@
 	  {"name":"situps","results":[{"place":1,"athlete":"calvin agyei","mark":"49"},{"place":2,"athlete":"remi ajidahun","mark":"47"},{"place":3,"athlete":"harry wood","mark":"46"},{"place":4,"athlete":"cj mcguire","mark":"42"}]},
 	  {"name":"cleans","results":[{"place":1,"athlete":"cj mcguire","mark":"105kg"},{"place":2,"athlete":"remi ajidahun","mark":"100kg"},{"place":3,"athlete":"calvin agyei","mark":"90kg"},{"place":4,"athlete":"harry wood","mark":"60kg"}]},
 	  {"name":"pullups","results":[{"place":1,"athlete":"harry wood","mark":"20"},{"place":2,"athlete":"cj mcguire","mark":"18"},{"place":2,"athlete":"remi ajidahun","mark":"18"},{"place":4,"athlete":"calvin agyei","mark":"16"}]},
-	  {"name":"bench","results":[{"place":1,"athlete":"calvin agyei","mark":"110kg"},{"place":2,"athlete":"remi ajidahun","mark":"105kg"},{"place":2,"athlete":"cj mcguire","mark":"105kg"},{"place":4,"athlete":"harry wood","mark":"60kg"},]},
+	  {"name":"bench","results":[{"place":1,"athlete":"calvin agyei","mark":"110kg"},{"place":2,"athlete":"remi ajidahun","mark":"105kg"},{"place":2,"athlete":"cj mcguire","mark":"105kg"},{"place":4,"athlete":"harry wood","mark":"60kg"}]},
 	  {"name":"trap bar deadlift","results":[{"place":1,"athlete":"remi ajidahun","mark":"180kg"},{"place":1,"athlete":"cj mcguire","mark":"180kg"},{"place":1,"athlete":"calvin agyei","mark":"180kg"},{"place":4,"athlete":"harry wood","mark":"100kg"}]},
 	  {"name":"1000m row","results":[{"place":1,"athlete":"remi ajidahun","mark":"3:40.7"},{"place":2,"athlete":"cj mcguire","mark":"3:42.9"},{"place":3,"athlete":"calvin agyei","mark":"4:11.1"},{"place":4,"athlete":"harry wood","mark":"dns"}]}   
     ]
