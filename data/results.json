@@ -5,7 +5,7 @@
       "name": "WFO Olympics - Spring 2026",
       "date": "2026-03-14",
       "events": [
-	  {"name":"Overall","results":[{"place":1,"athlete":"remi ajidahun","mark":"29"},{"place":2,"athlete":"cj mcguire","mark":"26"},{"place":3,"athlete":"calvin agyei","mark":"25"},{"place":4,"athlete":"harry wood","mark":"25"},{"place":5,"athlete":"will","mark":"7"},{"place":6,"athlete":"sarah","mark":"4"},{"place":7,"athlete":"fahmia","mark":"2"}]},	  
+	  {"name":"Overall","results":[{"place":1,"athlete":"remi ajidahun","mark":"29"},{"place":2,"athlete":"cj mcguire","mark":"26"},{"place":3,"athlete":"calvin agyei","mark":"25"},{"place":4,"athlete":"harry wood","mark":"25"},{"place":5,"athlete":"will","mark":"7"},{"place":6,"athlete":"sarah","mark":"4"},{"place":7,"athlete":"fahmia","mark":"3"}]},	  
 	  {"name":"100m","results":[{"place":1,"athlete":"remi ajidahun","mark":"11.6s"},{"place":2,"athlete":"cj mcguire","mark":"11.7s"},{"place":3,"athlete":"harry wood","mark":"11.9s"},{"place":4,"athlete":"calvin agyei","mark":"13.7s"}]},
 	  {"name":"400m","results":[{"place":1,"athlete":"harry wood","mark":"56s"},{"place":2,"athlete":"remi ajidahun","mark":"59s"},{"place":3,"athlete":"cj mcguire","mark":"1:03s"},{"place":4,"athlete":"calvin agyei","mark":"1:19s"}	  ]},	  
 	  {"name":"mile","results":[{"place":1,"athlete":"Will","mark":"6:23"},{"place":2,"athlete":"harry wood","mark":"6:36"},{"place":3,"athlete":"calvin agyei","mark":"6:48"},{"place":4,"athlete":"sarah","mark":"6:51"},{"place":5,"athlete":"fahmida","mark":"7:39"},{"place":6,"athlete":"remi ajidahun","mark":"8:43"},{"place":7,"athlete":"cj mcguire","mark":"NR"}]},	  
